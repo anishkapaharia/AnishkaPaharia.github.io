@@ -4718,6 +4718,7 @@ input, select, textarea {
 
 .hero-content{
     max-width:600px;
+	text-align:left;
 }
 
 .hero-content h1{
@@ -4735,11 +4736,11 @@ input, select, textarea {
 }
 
 .hero-content p{
-    max-width:560px;
+     max-width:560px;
     font-size:1.05rem !important;
     line-height:1.8;
     font-style:normal !important;
-    text-align:center;
+    text-align:left !important;
 }
 
 .hero .icons{
