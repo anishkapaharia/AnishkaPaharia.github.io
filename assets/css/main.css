@@ -4720,10 +4720,10 @@ input, select, textarea {
     max-width:600px;
 }
 
-.hero-content h1{
-    font-size:3.4rem;
-    line-height:1.1;
-    margin-bottom:.6rem;
+.hero-content h1 {
+    font-size: 2.6rem !important;
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
 }
 
 .hero-content .subtitle{
@@ -4736,14 +4736,15 @@ input, select, textarea {
 }
 
 .hero-content p{
-    font-size:1rem;
-    font-style:normal;
-    text-align:left;
+    text-align:left !important;
+    font-style:normal !important;
+    font-size:1.05rem;
     line-height:1.8;
+    max-width:550px;
 }
 
 .hero .icons{
-    margin-top:1.5rem;
+    margin-top:0.8rem;
 }
 
 .hero .icons li{
