@@ -4687,3 +4687,45 @@ input, select, textarea {
 		}
 
 	}
+/* ==========================================
+   CUSTOM STYLES
+========================================== */
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.profile-photo img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,255,.15);
+}
+
+.profile-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.profile-text h1{
+    margin-bottom:15px;
+}
+
+.profile-text p{
+    text-align:left;
+}
+
+.subtitle{
+    color:#18bfef;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+    margin-bottom:25px;
+}
