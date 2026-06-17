@@ -4693,14 +4693,14 @@ input, select, textarea {
 ========================================== */
 
 #intro{
-    min-height:65vh !important;
-    padding:3rem 2rem !important;
-    justify-content:center !important;
+    min-height:65vh;
+    padding:3rem 2rem;
+    justify-content:center;
 }
 
 .hero{
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content:center;
     gap:60px;
     max-width:950px;
@@ -4721,14 +4721,14 @@ input, select, textarea {
 }
 
 .hero-content h1{
-    font-size:3.4rem !important;
+    font-size:3.4rem;
     line-height:1.1;
     margin-bottom:.6rem;
 }
 
 .hero-content .subtitle{
-    font-size:1.05rem !important;
-    font-style:normal !important;
+    font-size:1.05rem;
+    font-style:normal;
     letter-spacing:.08em;
     color:#18bfef;
     margin-bottom:1.4rem;
@@ -4736,9 +4736,9 @@ input, select, textarea {
 }
 
 .hero-content p{
-    font-size:1rem !important;
-    font-style:normal !important;
-    text-align:left !important;
+    font-size:1rem;
+    font-style:normal;
+    text-align:left;
     line-height:1.8;
 }
 
@@ -4771,11 +4771,11 @@ input, select, textarea {
     }
 
     .hero-content p{
-        text-align:center !important;
+        text-align:center;
     }
 
     .hero-content h1{
-        font-size:2.5rem !important;
+        font-size:2.5rem;
     }
 
     .hero-photo img{
