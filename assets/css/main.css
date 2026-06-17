@@ -4852,3 +4852,22 @@ input, select, textarea {
 
     transform:rotate(-18deg);
 }
+@keyframes floatNetwork{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+.network-bg{
+    animation:floatNetwork 12s ease-in-out infinite;
+}
