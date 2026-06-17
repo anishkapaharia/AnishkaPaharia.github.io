@@ -4785,3 +4785,70 @@ input, select, textarea {
     }
 
 }
+/* ==========================
+   Neural Network Background
+========================== */
+
+#intro{
+    position:relative;
+    overflow:hidden;
+}
+
+.network-bg{
+    position:absolute;
+    inset:0;
+    opacity:.18;
+    pointer-events:none;
+}
+
+.network-bg span{
+    position:absolute;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#18bfef;
+    box-shadow:0 0 15px #18bfef;
+}
+
+/* Node Positions */
+
+.n1{top:18%;left:18%;}
+.n2{top:35%;left:40%;}
+.n3{top:22%;left:70%;}
+.n4{top:60%;left:30%;}
+.n5{top:72%;left:58%;}
+.n6{top:48%;left:82%;}
+
+/* Connecting Lines */
+
+.network-bg::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background-image:
+
+    linear-gradient(#18bfef55,#18bfef55),
+    linear-gradient(#18bfef55,#18bfef55),
+    linear-gradient(#18bfef55,#18bfef55),
+    linear-gradient(#18bfef55,#18bfef55),
+    linear-gradient(#18bfef55,#18bfef55);
+
+    background-size:
+        180px 2px,
+        240px 2px,
+        170px 2px,
+        210px 2px,
+        160px 2px;
+
+    background-repeat:no-repeat;
+
+    background-position:
+        20% 22%,
+        40% 37%,
+        28% 62%,
+        58% 48%,
+        65% 24%;
+
+    transform:rotate(-18deg);
+}
