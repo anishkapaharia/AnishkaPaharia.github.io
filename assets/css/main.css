@@ -4702,8 +4702,8 @@ input, select, textarea {
 }
 
 .profile-photo img {
-    width: 240px;
-    height: 240px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid rgba(255,255,255,.15);
