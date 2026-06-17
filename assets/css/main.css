@@ -4702,15 +4702,15 @@ input, select, textarea {
     display:flex;
     align-items:flex-start;
     justify-content:center;
-    gap:60px;
+    gap:40px;
     max-width:850px;
     margin:0 auto;
     text-align:left;
 }
 
 .hero-photo img{
-    width:150px;
-    height:150px;
+    width:140px;
+    height:140px;
     border-radius:50%;
     object-fit:cover;
     border:4px solid rgba(255,255,255,.25);
